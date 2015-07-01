@@ -1,44 +1,82 @@
-.header-main{
-  position:fixed;
-  height: 50px;
-  width:100%;
-  background-color:#34495e;
-  top:0;
-  left:0;
+*,*:active,*:focus,*:hover{
+  font-family:'Roboto',sans-serif, helvetica;
+  outline: none;
 }
-
-.button-main-menu{
-  position:fixed;
-  top:5px;
-  right:10px;
-  width:30px;
-  height:30px;
+.arrow-left{
+  background-image:url(../images/ic_arrow_left_gray.svg);
+  background-size: 200%;
 }
-.button-main-menu div{
+.arrow-right{
+  background-image:url(../images/ic_arrow_right_gray.svg);
+  background-size: 200%;
+}
+.aside-main{
+  background-color:#2980b9;
+  color:#fff;
+}
+.banner{
+  margin-top:48px;
+  background-image:url(../images/marketing.jpg);
+  background-color:transparent;
+  background-size:100%;
+  height:300px;
+}
+.banner input{
   position:relative;
-  width: 100%;
-  margin-top:10px;
-  border-top:1px solid #fff;
-  transition: transform 0.5s, display 1s  ease-in-out;
-  -webkit-transition: transform 0.5s, display 1s  ease-in-out;
+  width:56px;
+  padding:8px;
+  margin:0 25px;
+  background-color:transparent;  
 }
-
-.button-main-menu:hover div{
-  position:absolute;
-  top:10px;
+.button-cart{
+  background-image:url(../images/ic_cart.svg);
+  background-color:transparent;
+  background-size:80%;
+  width:36px;
+  margin-right:8px;
+  border-radius:50%;
+  transition:0.1s background-color ease-in-out;
+  -webkit-transition:0.1s background-color ease-in-out;
 }
-
-.button-main-menu:hover .button-main-menu-mid{
-  display:none;
-  visibility: hidden;
+.button-cart:active{
+  background-color:#253442;
 }
-
-.button-main-menu:hover div:first-child{
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+.component-fixed{position:fixed}
+.component-image{
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-.button-main-menu:hover div:last-child{
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+.container-search{
+  background-color:#fff;
+  padding-left: 8px;
 }
+.float-left{float:left}
+.float-right{float:right}
+.footer-main{
+  background-color:#7f8c8d;
+  color:#34495e;
+  min-height:300px;
+}
+.full-width{width:100%;}
+.header-main{
+  height: 48px;
+  background-color:#34495e;
+  z-index: 10;
+}
+.height-full{height:100%;}
+.img-search{
+  background-image:url(../images/ic_search.svg);
+  background-color:transparent;
+  background-size:80%;
+  width:36px;
+  height:100%;
+  padding: 0 12px;
+}
+input, button{border:none;}
+.nav-main{
+  width:75%;
+  float:right;
+  padding:8px 8;
+}
+.radius{border-radius:50%;}
+.top-left{top:0;left:0}
